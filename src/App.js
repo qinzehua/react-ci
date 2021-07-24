@@ -1,11 +1,10 @@
 import "./App.css";
-import React, { Suspense } from "react";
+import React from "react";
 
 import {
   atom,
   selector,
   selectorFamily,
-  useRecoilValue,
   useRecoilState,
   useRecoilValueLoadable,
 } from "recoil";
