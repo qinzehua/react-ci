@@ -1,3 +1,3 @@
 FROM nginx:1.15
-COPY build /etc/nginx/html
+COPY build /usr/share/nginx/html
 COPY conf /etc/nginx/conf.d
